@@ -1,0 +1,416 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* navigation bar */
+nav{
+    box-shadow: 0px 5px 5px 0px skyblue;
+
+}
+
+.logo{
+   width: 10rem;
+   height: 8rem;
+}
+nav h1{
+    font-family: 'Bungee', cursive;
+    color: darkblue;
+}
+nav ul{
+    margin-left: 5rem;
+}
+nav ul li{
+    margin-left: 3rem;
+}
+nav li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: blue;
+    display: inline-block;
+    position: relative;
+}
+nav a::after{
+    content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+nav a:hover{
+    color: blueviolet;
+}
+nav a:hover::after{
+    transform: scaleX(1);
+  transform-origin: bottom left;
+} 
+
+/* carousel */
+#home-img{
+    height: 35rem;  
+    
+}
+#home-img img{
+    height: 100%;
+}
+
+#home-cap{
+    top:0;
+    margin-top: 3rem;
+}
+#home-cap h1,p{
+    font-weight: bold;
+}
+#home-cap button{
+    margin-top: 2rem;
+    width:8rem;
+    height: 2.5rem;
+    background-color:blueviolet;
+    font-weight: bold;
+    color:white;
+    border-radius: 5px;
+    border-color:blueviolet;
+}
+
+@keyframes MfadeInDown{
+    0%{
+        opacity: 0;
+        -webkit-transform: translate3d(0,-100%,0);
+        transform: translate3d(0,-100%,0);
+    }
+    40%{
+        opacity: 1;
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+}
+
+.MfadeInDown{
+    animation-name: MfadeInDown;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+
+/* domestic packages */
+#domestic{
+    margin-top: 4rem;
+    
+}
+
+
+#dom-heading{
+    text-align: center;
+}
+#dom-heading h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+}
+#dom-heading h3{
+    font-family: 'Cookie', cursive;
+    color: orangered;
+}
+#dom1{
+    width:22rem;
+    height: 30rem;
+    margin-top: 2rem;
+    border-radius: 7px;
+    border: 1px solid lightgray;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px 5px lightgray inset; 
+    transition: transform 0.50s;
+
+}
+#dom1:hover{
+    box-shadow: none;
+    transform: scale(1.05);
+}
+#dom1 img{
+    width:100%;
+    height: 45%;
+    border-radius: 5px;
+}
+#dom1 h3{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-weight: bold;
+   
+}
+#dom1 p{
+    text-align: justify;
+    font-family: 'Nanum Myeongjo', serif;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-weight: normal;
+    font-size: 19px;
+}
+#button-ker{
+    margin-left: 7rem;
+    width: 7rem;
+    height: 2.5rem;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: orangered;
+}
+
+
+#dom_button{
+    text-align: center;
+    margin-top: 2rem;   
+}
+#dom_button button{
+    width: 9rem;
+    height: 3rem;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: blue;
+}
+
+/* why book with us */
+#why_book{
+    margin-top: 3rem;
+    background-color:black;
+    text-align: center;
+}
+#book{
+    height: 10rem;
+    background-color: darkred;
+    padding-top: 3rem;
+    color: white;
+}
+#thump{
+    height: 10rem;
+    color: white;
+    padding-top: 2rem;
+}
+
+/* international packages */
+
+#international{
+    margin-top: 4rem;
+}
+
+
+/* discount */
+
+#discount{
+    margin-top: 2rem;
+    background-image: url('./gallery/traveler1.jpg');
+    background-size: 100% 25rem;
+}
+#dis-head{
+    height: 25rem;
+    text-align: center;
+    
+}
+#dis-head h1{
+    color:darkred;
+    font-weight: bold;
+    font-family: 'Croissant One', cursive;
+    font-size: 50px;
+}
+#dis-head span{
+    color:crimson;
+    font-weight: bold;
+}
+#dis-head p{
+    color:black;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+#dis-head button{
+    width: 12rem;
+    height: 3rem;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color:white;
+    
+}
+
+/* popular destinations */
+
+#popular{
+    margin-top: 4rem;
+    
+}
+
+#pop1,#pop2,#pop3,#pop4,#pop5,#pop6{
+    width: 20rem;
+    height: 20rem;
+    background-size: 100% 100%;
+    margin-top: 2rem;
+    border-radius: 7px;
+    border: 1px solid lightgray;
+    box-shadow: 5px 5px 5px 5px lightgray;
+    transition: transform 0.50s;
+    
+}
+#pop1{
+    background-image: url('./gallery/thailand.jpg');
+}
+#pop2{
+    background-image: url('./gallery/maldives.jpg');   
+}
+#pop3{
+    background-image: url('./gallery/dubai.jpg');    
+}
+#pop4{
+    background-image: url('./gallery/kerala.jpg');    
+}
+#pop5{
+   background-image: url('./gallery/kulu.jpg');    
+}
+#pop6{
+    background-image: url('./gallery/sing.jpg');   
+}
+#pop1,#pop2,#pop3,#pop4,#pop5,#pop6 h4{
+    color: white;
+    font-family: 'Bree Serif', serif;
+}
+#pop1:hover,#pop2:hover,#pop3:hover,#pop4:hover,#pop5:hover,#pop6:hover{
+    box-shadow: none;
+    transform: scale(1.05);
+}
+
+/* about us */
+
+#about{
+    margin-top: 4rem;  
+    background-color: wheat; 
+}
+#about1 p{
+    text-align: justify;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 19px;
+    
+}
+#about1 h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+}
+#about1 button{
+    width: 12rem;
+    height: 3rem;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color:white;
+}
+
+#about2 h2{
+    font-family: 'Fjalla One', sans-serif;
+}
+#about2 a{
+    text-decoration: none;
+    font-size: 19px;
+}
+#about2 li{
+    margin-top: 1rem;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+
+}
+
+/* travel articles */
+
+#travel-art{
+     margin-top: 4rem;
+}
+#travel-art h2{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+}
+#art-button{
+    margin-left: 1rem;
+    width: 8rem;
+    height: 2.5rem;
+    background-color:black;
+    color: white;
+    border-color:black;
+
+}
+
+/* contact us */
+
+#contact{
+    margin-top: 4rem;
+    background-color:wheat;
+}
+#contact h1{
+    font-family: 'Fjalla One', sans-serif;
+}
+#form p,#cont-details p{
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 19px;
+}
+#con-button{
+    width:7rem;
+    height: 3rem;
+    margin-top: 1rem;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    border-radius: 8px;
+}
+
+
+
+/* follow us */
+
+#follow{
+    margin-top: 4rem;
+    background-color: whitesmoke;
+}
+#icons i{
+    margin-left: 2rem;
+    transition: transform 0.50s;
+}
+#icons i:hover{
+    transform: scale(1.20);
+}
+#icons h3,#logos h3{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#logos {
+    text-align: center;
+}
+
+#security span{
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+
+#images img{
+    width:12rem;
+    height: 6rem;
+}
+
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+

@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- title -->
+    <title>Gypsy</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="./travel.css">
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Black+Ops+One&family=Borel&family=Bungee&family=Dancing+Script&family=Handjet:wght@400;700;800&family=Lumanosimo&family=Montserrat:ital,wght@1,300;1,500&family=Oswald:wght@500&family=Paytone+One&family=REM:wght@300&family=Rubik+Iso&family=Tilt+Prism&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Black+Ops+One&family=Borel&family=Bungee&family=Cookie&family=Dancing+Script&family=Fjalla+One&family=Great+Vibes&family=Handjet:wght@400;700;800&family=Lumanosimo&family=Montserrat:ital,wght@1,300;1,500&family=Oswald:wght@500&family=Paytone+One&family=REM:wght@300&family=Rubik+Iso&family=Tilt+Prism&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Black+Ops+One&family=Borel&family=Bungee&family=Cookie&family=Croissant+One&family=Dancing+Script&family=Fjalla+One&family=Great+Vibes&family=Handjet:wght@400;700;800&family=Lumanosimo&family=Montserrat:ital,wght@1,300;1,500&family=Nanum+Myeongjo&family=Oswald:wght@500&family=Paytone+One&family=REM:wght@300&family=Rubik+Iso&family=Tilt+Prism&display=swap" rel="stylesheet">
+<!-- title logo -->
+<link rel="icon" type="image/x-icon" href="https://freepngimg.com/save/130014-letter-g-hq-image-free/1271x1280">
+
+</head>
+<body>
+
+    <!-- navigation bar-->
+ <nav class="navbar navbar-expand-lg">
+     <div class="container-fluid">
+            <img class="logo" src="./gallery/aviation_logo-22-removebg-preview.png" alt="">
+            <h1>Gypsy</h1>
+            <button class="navbar-toggler"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#gfgnavbar">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+    
+      <div class="collapse navbar-collapse ps-3" 
+      id="gfgnavbar">
+      <ul class="navbar-nav">
+        <li><a href="#home-img">Home</a></li>
+        <li><a href="#domestic">Domestic Packages</a></li>
+        <li><a href="#international">International packages</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </div>
+
+  </div>                
+    
+</nav>
+
+<!-- home image -->
+<div class="container-fluid">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" id="home-img">
+            <img src="./gallery/thailand.jpg" class="d-block w-100" alt="thailand">
+            <div class="carousel-caption" id="home-cap" >
+              <h1 class="MfadeInDown">A Luxury Escape Away From The Busy Life!</h1>
+              <p class="MfadeInDown">Customized Thailand Holiday Packages For You!</p>
+              <button>Explore</button>
+            </div>
+          </div>
+          <div class="carousel-item" id="home-img">
+            <img src="./gallery/maldives1.jpg" class="d-block w-100" alt="maldives">
+            <div class="carousel-caption" id="home-cap">
+              <h1 class="MfadeInDown">It's All About Fun & Adventure!</h1>
+              <p class="MfadeInDown">Explore Maldives For An Exciting Holiday Experience!</p>
+              <button>Explore</button>
+            </div>
+          </div>
+          <div class="carousel-item" id="home-img">
+            <img src="./gallery/sing.jpg" class="d-block w-100" alt="singapore">
+            <div class="carousel-caption" id="home-cap">
+              <h1 class="MfadeInDown">Enjoy The Vibrant And Peppy Vibes Of The City!</h1>
+              <p class="MfadeInDown">Explore The Best Of Singapore Holidays!</p>
+              <button>Explore</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+
+<!-- domestic packages -->
+<div id="domestic" class= "ms-5">
+  <div id="dom-heading">
+    <h1>Domestic Packages</h1>
+  <h3>Discover the Treasures of India</h3>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div id="dom1">
+         <img src="./gallery/kerala.jpg" alt="ker">
+         <h3>Kerala</h3>
+         <p>God's own country,Kerala is a heaven for travellers. Make your own Kerala tour package across our various resort options and destinations within Kerala.</p>
+         <button id="button-ker">View Details</button>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div id="dom1">
+         <img src="./gallery/kashmir.jpg" alt="kashmir">
+         <h3>Kashmir</h3>
+         <p>Kashmir Valley is one of India's most popular tourist destinations. Gulmarg, one of India's most famous ski resort locations. Book your Kashmir packages with us.</p>
+         <button id="button-ker">View Details</button>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div id="dom1">
+         <img src="./gallery/goa1.jpg" alt="goa">
+         <h3>Goa</h3>
+         <p>Goa is a perfect destination for all kinds of holidays, whether it be a solo trip, a honeymoon or a friend's birthday.Enjoy the best beaches of this exotic destination.</p>
+         <button id="button-ker">View Details</button>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div id="dom1">
+         <img src="./gallery/kulu.jpg" alt="kulumanali">
+         <h3>Kulu Manali</h3>
+         <p>Manali the haven of nature lovers & adventure enthusiasts!. Our Kulu Manali Group Tour Packages offer a perfect blend of adventure and relaxation amidst the Himalayas.</p>
+         <button id="button-ker">View Details</button>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div id="dom1">
+         <img src="./gallery/ladakh.jpg" alt="ladakh">
+         <h3>Leh-Ladakh</h3>
+         <p>Welcomes everyone to the land of adventures.Explore the beautiful Nubra Valley and Pangong Tso, peaceful Shanti Stupa and Nubra Valley at Leh Ladakh.</p>
+         <button id="button-ker">View Details</button>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div id="dom1">
+         <img src="./gallery/raja1.jpg" alt="rajastan">
+         <h3>Rajasthan</h3>
+         <p>Rajasthan is a state of vibrant folk dance and music, gigantic forts and palaces,extensive golden sand desert etc. It is an incredible place to visit in India for unforgettable holidays.</p>
+         <button id="button-ker">View Details</button>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="dom_button">
+     <button>View More</button>
+  </div>
+
+</div>
+
+<!-- why book with us -->
+<div id="why_book">
+   <div class="row">
+         
+        <div class="col-lg-3 col-md-6 col-sm-12" id="book">
+              <h2>WHY BOOK WITH US?</h2>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 " id="thump">
+          <i class="fa-solid fa-thumbs-up fa-2x" style="color: #f0d998;"></i>
+          <h4>40,000+ CUSTOMERS</h4>
+          <p>Total Customer satisfaction</p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 " id="thump">
+          <i class="fa-solid fa-award fa-2x" style="color: #b1a52b;"></i>
+          <h4>AWARD WINNING</h4>
+          <p>Book With Confidence</p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12" id="thump">
+          <i class="fa-solid fa-lock fa-2x" style="color: #f9d10b;"></i>
+          <h4>SECURE PAYMENT</h4>
+          <p>Reliable,Safe Payments</p>
+        </div>
+
+   </div>
+</div>
+
+<!-- international packages -->
+<div class="row">
+  <div class="col-lg-12 col-md-12 col-sm-12">
+    <div id="international" class="ms-5">
+      <div id="dom-heading">
+        <h1>International Packages</h1>
+        <h3>Explore the World with Our International Tour Packages</h3>
+      </div>
+  </div>
+</div>
+
+
+  <div class="row">
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div id="dom1" class="ms-5">
+         <img src="./gallery/mal1.jpg" alt="maldives">
+         <h3>Maldives</h3>
+         <p>The Maldives tourism is known popularly across the globe for its pristine white sandy beaches, blooming reef fishes, crystalline lagoons and lavish water villas.</p>
+         <button id="button-ker">View Details</button>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div id="dom1" class="ms-5">
+         <img src="./gallery/sing1.jpg" alt="singapore">
+         <h3>Singapore</h3>
+         <p>Explore the rich colonial history and spectacular destination Singapore before spending a relaxing week enjoying the glorious white sands and turquoise waters of Langkawi.</p>
+         <button id="button-ker">View Details</button>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div id="dom1" class="ms-5">
+         <img src="./gallery/dub.jpg" alt="dubai">
+         <h3>Dubai</h3>
+         <p>Take home vivid memories of Dubai's crowning glory with a tour through parts of Burj Khalifa. Being a landmark for Dubai, it is one of the tallest building in the world.</p>
+         <button id="button-ker">View Details</button>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div id="dom1" class="ms-5">
+         <img src="./gallery/bang.jpg" alt="thailand">
+         <h3>Thailand</h3>
+         <p>For major tourist attractions in Bangkok, most of them are Historical sites or religious sites such as temples in Bangkok. Phuket province is located in southern Thailand.</p>
+         <button id="button-ker">View Details</button>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div id="dom1" class="ms-5">
+         <img src="./gallery/bali2.jpg" alt="bali">
+         <h3>Bali</h3>
+         <p>Bali's most popular destinations include Tanjung Benoa Beach, Ulundanu temple and more. Tanjung Benoa watersport in Bali offer a range of watersport facilities.</p>
+         <button id="button-ker">View Details</button>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div id="dom1" class="ms-5">
+         <img src="./gallery/cambodia.jpg" alt="cambodia">
+         <h3>Cambodia</h3>
+         <p>Some of the best places to visit in Cambodia include Floating village, Angkor Wat temple, and lots more which are famous for their architectural designs.</p>
+         <button id="button-ker">View Details</button>
+      </div>
+    </div> 
+
+  </div>
+
+  <div id="dom_button">
+    <button>View More</button>
+ </div>
+
+</div>
+
+<!-- discount -->
+
+<div id="discount">
+
+   <div class="row">
+
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <div id="dis-head" class="pt-4 ps-4">
+          <h1>Discount <span>10-30% Off</span></h1>
+         <p>Best travel experiences with budget friendly deals! Book early and get great discounts on your travel packages and services. Check out our latest exclusive offers…</p>
+         <button>See Promotion Tours</button>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12">
+
+      </div>
+
+   </div>
+
+  
+   
+</div>
+
+<!-- popular destinations -->
+<div id="popular" class="ms-5 me-5">
+  <div id="dom-heading">
+    <h1>Popular Destinations</h1>
+    <h3>Check out the best places to visit! From offbeat destinations to the domestic tourist spots, we make your dream trips into reality!</h3>
+  </div>
+
+  <div class="row">
+      
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div id="pop1" class="ps-3 pt-3">
+        <i class="fa-solid fa-location-dot" style="color: #f0f2f5;"></i>
+        <h4>Thailand</h4>  
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div id="pop2" class="ps-3 pt-3">
+        <i class="fa-solid fa-location-dot" style="color: #f0f2f5;"></i>
+        <h4>Maldives</h4>  
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div id="pop3" class="ps-3 pt-3">
+        <i class="fa-solid fa-location-dot" style="color: #f0f2f5;"></i>
+        <h4>Dubai</h4>  
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div id="pop4" class="ps-3 pt-3">
+        <i class="fa-solid fa-location-dot" style="color: #f0f2f5;"></i>
+        <h4>Kerala</h4>  
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div id="pop5" class="ps-3 pt-3">
+        <i class="fa-solid fa-location-dot" style="color: #f0f2f5;"></i>
+        <h4>Kulu Manali</h4>  
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div id="pop6" class="ps-3 pt-3">
+        <i class="fa-solid fa-location-dot" style="color: #f0f2f5;"></i>
+        <h4>Singapore</h4>  
+      </div>
+    </div> 
+
+  </div>
+</div>
+
+<!-- about us -->
+<div id="about" class="pt-5 pb-5">
+    <div class="row">
+    
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <div id="about1" class="ps-4 pe-2">
+            <h1 class="mt-3">About Us</h1>
+            <p class="mt-3">Travel to your heart's content! Enjoy holidays at magnificent destinations across the Globe. Gypsy Holidays, premier tour operator in Kerala brings to you domestic and international tour packages, travel services and more. Be it a family vacation, a luxury romantic honeymoon in an exotic destination or a budget holiday, we will craft a getaway that is right for you! Years of experience in the travel industry & top-rated services has made Gypsy Holidays to differentiate itself as the number one travel company in Kerala. Book your customised tour packages with us for a fabulous holiday…
+            </p>
+           <button>Know More</button> 
+        </div>
+      </div> 
+
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <div id="about2" class="ps-5 mt-5">
+            <h2 class="mt-3">Our Services</h2>
+            
+           <div class="row">
+            <div class="col-6">
+              <ul class="mt-3">
+                <li><a href="">Holiday Packages</a></li>
+                <li><a href="">Sightseeing</a></li>
+                <li><a href="">Hotel/Restaurent Booking</a></li>
+                <li><a href="">Visa Services</a></li>
+                <li><a href="">Guide Services</a></li>
+                <li><a href="">Honeymoon Packages</a></li>
+                <li><a href="">Group Tours</a></li>
+                
+              </ul>
+            </div>
+
+            <div class="col-6">
+              <ul class="mt-3">
+                
+                <li><a href="">Inbound Tours</a></li>
+                <li><a href="">Air Ticketing</a></li>
+                <li><a href="">Study Tours</a></li>
+                <li><a href="">Pilgrimage Tours</a></li>
+                <li><a href="">Abroad Tours</a></li>
+                <li><a href="">Car & Couches</a></li>
+        
+              </ul>
+            </div>
+           </div>
+            
+        </div>
+      </div> 
+
+    </div>
+
+</div>
+
+<!-- travel articles -->
+<div id="travel-art">
+  <h2 class="ms-5">Travel Articles</h2>
+
+  <div class="row">
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div id="dom1" class="ms-5">
+         <img src="./gallery/sing1.jpg" alt="">
+         <h3 class="ms-3">Magical Singapore</h3>
+         <p>A small island nation that's more advanced than its neighbors, Singapore is recognized as a global financial center and the perfect amalgamation of diverse culture...</p>
+         <button id="art-button">Read More</button> 
+         
+      </div>
+    </div> 
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div id="dom1" class="ms-5">
+         <img src="./gallery/mal.jpg" alt="">
+         <h3 class="ms-3">Pristine Malaysia</h3>
+         <p>Malaysia is an amazing country, known for reflecting an eclectic blend of ancient customs, traditions, and culture with a dash of modernity. The country has...</p>
+         <button id="art-button">Read More</button>
+         
+      </div>
+    </div> 
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div id="dom1" class="ms-5">
+         <img src="./gallery/bali3.jpg" alt="">
+         <h3 class="ms-3">Bali Temples</h3>
+         <p>Exuding mysticism and serenity, Bali temples are a gateway to immense tranquillity. With impeccable architecture, these magnificent places of worship offer a peaceful time to...</p>
+         <button id="art-button">Read More</button>
+         
+      </div>
+    </div> 
+
+  </div>
+
+</div>
+
+<!-- contact us -->
+<div id="contact" class="pt-5 pb-5">
+  <h1 class="ms-5">Contact Us</h1>
+
+  <div class="row">
+      
+    <div class="col-lg-7 col-md-12 col-sm-12">
+      <div id="form" class="ps-5 pt-3 pe-3">
+         <h4>REACH OUT TO US</h4>
+         <p>We'd love to hear from you. Message us and we'll respond to you as soon as possible.</p>
+
+         <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="floatingInput" placeholder="name">
+          <label for="floatingInput">Name</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="floatingPassword" placeholder="Phone">
+          <label for="floatingInput">Phone number</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="floatingPassword" placeholder="subject">
+          <label for="floatingInput">subject</label>
+        </div>
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 150px"></textarea>
+          <label for="floatingTextarea2">Message</label>
+        </div>
+
+        <button id="con-button">Submit</button>
+         
+      </div>
+    </div> 
+
+    <div class="col-lg-5 col-md-12 col-sm-12">
+      <div id="cont-details" class="ps-5 pt-5">
+         <h3>Get In Touch</h3> 
+         <p>we will get back to you</p>
+
+             <div id="mail" class="mt-5">
+              <i class="fa-solid fa-envelope" style="color: #0a60f5;"></i>
+               <span class="ms-3 fs-5"> info@gypsyholidays.com</span>
+             </div>
+             <div id="Phone" class="mt-5">
+              <i class="fa-solid fa-phone" style="color: #0850f7;"></i>
+              <span class="ms-3 fs-5">+91 9856432765</span>
+             </div>
+             <div id="address" class="mt-5">
+              <i class="fa-solid fa-location-dot" style="color: #4b0bf9;"></i>
+              <span class="ms-3 fs-5">Gypsy Holidays <br>
+                Pathuvana Building <br>
+                No:32/637-S, 2nd Floor <br>
+                University Signal Junction <br>
+                Changampuzha Nagar P O <br>
+                Kalamassery Cochin - 682 033</span>
+             </div>
+
+
+      </div>
+    </div> 
+
+  </div>
+
+</div>
+
+<!-- follow us -->
+<div id="follow" >
+
+  <div class="row">
+       
+    <div class="col-lg-4 col-md-12 col-sm-12">
+      <div id="icons" class="pt-5 pb-5">
+        <h3 class="ms-4 mb-4">Follow Us</h3>
+        <i class="fa-brands fa-facebook fa-2x" style="color: #012265;"></i>
+        <i class="fa-brands fa-square-instagram fa-2x" style="color: #f207c0;"></i>
+        <i class="fa-brands fa-square-youtube fa-2x" style="color: #f70227;"></i>
+        <i class="fa-brands fa-twitter fa-2x" style="color: #0aaef5;"></i>
+        <i class="fa-brands fa-square-threads fa-2x"></i>
+          
+      </div>
+    </div> 
+
+    <div class="col-lg-4 col-md-12 col-sm-12">
+      <div id="logos" class="pt-5 pb-5">
+        <h3 class="mb-3">Approved By</h3>
+
+          <div id="images">
+            <img src="./gallery/elephant-removebg-preview.png" alt="">
+            <img src="./gallery/kerala_tour-removebg-preview.png" alt="">
+          </div>  
+          
+      </div>
+    </div> 
+ 
+    <div class="col-lg-4 col-md-12 col-sm-12">
+      <div id="security" class="pt-5 pb-5">
+        <i class="fa-solid fa-lock"></i>
+        <span>We take security seriously and work hard to ensure your data is safe with us.</span>
+            
+      </div>
+    </div> 
+    
+  </div>
+
+</div>
+
+<!-- footer -->
+<footer>
+  <p>2023 &copy; gypsyholidays.com.All rights reserved</p>
+</footer>
+
+    
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
